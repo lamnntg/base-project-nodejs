@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node ./dist/bundle.js",
-    "run-webpack": "rmdir /s /q dist && webpack --mode development --config webpack.config.js",
+    "run-webpack": "webpack --mode development --config webpack.config.js",
     "dev": "nodemon index.js"
   },
   "repository": {
